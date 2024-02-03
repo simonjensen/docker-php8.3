@@ -8,12 +8,13 @@ RUN apk update && \
 RUN apk add --no-cache \
     autoconf \
     gcc \
+    git \
     libc-dev \
     make \
     libpng-dev \
     libjpeg-turbo-dev \
-    openssl-dev \
     linux-headers \
+    openssl-dev \
     tzdata && \
     ln -s /usr/share/zoneinfo/Europe/Copenhagen /etc/localtime && \
     pecl install redis && \
