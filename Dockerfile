@@ -1,4 +1,4 @@
-FROM php:8.3.1-fpm-alpine
+FROM php:8.3.2-fpm-alpine
 
 COPY php.ini /usr/local/etc/php/conf.d/php.ini
 
@@ -13,6 +13,7 @@ RUN apk add --no-cache \
     libpng-dev \
     libjpeg-turbo-dev \
     openssl-dev \
+    linux-headers \
     tzdata && \
     ln -s /usr/share/zoneinfo/Europe/Copenhagen /etc/localtime && \
     pecl install redis && \
@@ -21,6 +22,7 @@ RUN apk add --no-cache \
     docker-php-ext-install bcmath gd pdo_mysql && \
     pecl install mongodb && \
     docker-php-ext-enable mongodb && \
+    docker-php-ext-install sockets && \
     rm -rf /tmp/*
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && \

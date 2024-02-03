@@ -2,7 +2,7 @@
 
 > A base image for PHP 8.3
 
-Based on `php:8.3.1-fpm-alpine`.
+Based on `php:8.3.2-fpm-alpine`.
 
 Comes with the following modules installed:
 
@@ -14,7 +14,6 @@ Comes with the following modules installed:
 - dom
 - fileinfo
 - filter
-- ftp
 - gd
 - hash
 - iconv
@@ -36,6 +35,7 @@ Comes with the following modules installed:
 - Reflection
 - session
 - SimpleXML
+- sockets
 - sodium
 - SPL
 - sqlite3
