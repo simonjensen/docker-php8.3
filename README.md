@@ -2,7 +2,7 @@
 
 > A base image for PHP 8.3
 
-Based on `php:8.3.2-fpm-alpine`.
+Based on `php:8.3.12-fpm-alpine`.
 
 Comes with the following modules installed:
 

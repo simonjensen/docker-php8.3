@@ -29,4 +29,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ github.repository }}:8.3.2-fpm-alpine,${{ github.repository }}:${{ steps.short-sha.outputs.sha }},${{ github.repository }}:latest
+          tags: ${{ github.repository }}:8.3.12-fpm-alpine,${{ github.repository }}:${{ steps.short-sha.outputs.sha }},${{ github.repository }}:latest
