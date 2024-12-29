@@ -1,5 +1,7 @@
 # docker-php8.3
 
+[![Build and Publish](https://github.com/simonjensen/docker-php8.3/actions/workflows/publish.yaml/badge.svg)](https://github.com/simonjensen/docker-php8.3/actions/workflows/publish.yaml)
+
 > A base image for PHP 8.3
 
 Based on `php:8.3.12-fpm-alpine`.
