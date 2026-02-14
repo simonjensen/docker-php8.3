@@ -1,0 +1,20 @@
+name: Pipeline
+
+on:
+  push:
+    branches:
+      - "**"
+
+jobs:
+  docker-workflow:
+    name: Docker Workflow
+
+    permissions:
+      contents: write
+      packages: write
+      id-token: write
+
+    uses: simonjensen/pipelines/.github/workflows/docker.yaml@main
+    with:
+      image-name: ${{ github.repository }}
+      
