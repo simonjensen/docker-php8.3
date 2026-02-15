@@ -17,4 +17,3 @@ jobs:
     uses: simonjensen/pipelines/.github/workflows/docker.yaml@main
     with:
       image-name: ${{ github.repository }}
-      
