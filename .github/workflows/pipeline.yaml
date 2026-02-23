@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - "**"
+    patch:
+      - Dockerfile
+      - php.ini
 
 jobs:
   docker-workflow:
