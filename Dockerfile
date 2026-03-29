@@ -1,4 +1,4 @@
-FROM php:8.3.12-fpm-alpine
+FROM php:8.5.4-fpm-alpine@sha256:0b842919dc0aaed33eb5d57c7002f9f2d0120972d59db610cb6bdb69ad7624f0
 
 COPY php.ini /usr/local/etc/php/conf.d/php.ini
 
