@@ -17,6 +17,6 @@ jobs:
       packages: write
       id-token: write
 
-    uses: simonjensen/pipelines/.github/workflows/docker.yaml@main
+    uses: simonjensen/pipelines/.github/workflows/docker.yaml@190f6f969c846c05e199229a18827e4c71f17004 # main
     with:
       image-name: ${{ github.repository }}
