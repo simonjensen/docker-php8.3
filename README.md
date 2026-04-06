@@ -1,6 +1,6 @@
 # docker-php8.3
 
-[![Pipeline](https://github.com/simonjensen/docker-php8.3/actions/workflows/pipeline.yaml/badge.svg)](https://github.com/simonjensen/docker-php8.3/actions/workflows/pipeline.yaml)
+[![Pipeline](https://github.com/simonjensen/docker-php8.3/actions/workflows/release.yaml/badge.svg)](https://github.com/simonjensen/docker-php8.3/actions/workflows/release.yaml)
 
 > A base image for PHP 8.3
 
