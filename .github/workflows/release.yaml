@@ -10,6 +10,7 @@ jobs:
       contents: write
       packages: write
       id-token: write
+      pull-requests: write
     uses: simonjensen/pipelines/.github/workflows/release.yaml@main
     secrets: inherit
     with:
